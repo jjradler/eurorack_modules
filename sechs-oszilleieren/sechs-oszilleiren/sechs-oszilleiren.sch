@@ -1797,7 +1797,7 @@ F 3 "" H 10200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 5400 9900 5400
+	10200 5400 10150 5400
 Connection ~ 9900 5400
 Wire Wire Line
 	9900 5400 9900 5500
@@ -2040,4 +2040,17 @@ F 3 "" H 10500 6250 50  0001 C CNN
 	1    10500 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5E67B3D2
+P 10050 5400
+F 0 "C1" V 9900 5400 50  0000 C CNN
+F 1 "0.1uF" V 10200 5400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10050 5400 50  0001 C CNN
+F 3 "~" H 10050 5400 50  0001 C CNN
+	1    10050 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 5400 9900 5400
 $EndSCHEMATC
