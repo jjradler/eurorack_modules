@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sechs-oszilleiren_backup-cache
+LIBS:sechs-oszilleiren-cache
 EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
@@ -19,10 +19,10 @@ L 4xxx:40106 U?
 U 1 1 5E731E95
 P 2200 2600
 AR Path="/5E731E95" Ref="U?"  Part="1" 
-AR Path="/5E7241C9/5E731E95" Ref="U?"  Part="1" 
-F 0 "U?" H 2300 2750 50  0000 C CNN
+AR Path="/5E7241C9/5E731E95" Ref="U1"  Part="1" 
+F 0 "U1" H 2300 2750 50  0000 C CNN
 F 1 "40106" H 2350 2450 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2200 2600 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2200 2600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 2200 2600 50  0001 C CNN
 	1    2200 2600
 	1    0    0    -1  
@@ -54,10 +54,10 @@ L Device:C C?
 U 1 1 5E731EB5
 P 1600 2950
 AR Path="/5E731EB5" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E731EB5" Ref="C?"  Part="1" 
-F 0 "C?" H 1715 2996 50  0000 L CNN
+AR Path="/5E7241C9/5E731EB5" Ref="C1"  Part="1" 
+F 0 "C1" H 1715 2996 50  0000 L CNN
 F 1 "1.0uF" H 1715 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 2800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1638 2800 50  0001 C CNN
 F 3 "~" H 1600 2950 50  0001 C CNN
 	1    1600 2950
 	1    0    0    -1  
@@ -91,10 +91,10 @@ L Device:C C?
 U 1 1 5E731ED6
 P 1600 5700
 AR Path="/5E731ED6" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E731ED6" Ref="C?"  Part="1" 
-F 0 "C?" H 1715 5746 50  0000 L CNN
+AR Path="/5E7241C9/5E731ED6" Ref="C2"  Part="1" 
+F 0 "C2" H 1715 5746 50  0000 L CNN
 F 1 "1.0uF" H 1715 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 5550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1638 5550 50  0001 C CNN
 F 3 "~" H 1600 5700 50  0001 C CNN
 	1    1600 5700
 	1    0    0    -1  
@@ -128,10 +128,10 @@ L Device:C C?
 U 1 1 5E731EF7
 P 1600 8350
 AR Path="/5E731EF7" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E731EF7" Ref="C?"  Part="1" 
-F 0 "C?" H 1715 8396 50  0000 L CNN
+AR Path="/5E7241C9/5E731EF7" Ref="C3"  Part="1" 
+F 0 "C3" H 1715 8396 50  0000 L CNN
 F 1 "1.0uF" H 1715 8305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 8200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1638 8200 50  0001 C CNN
 F 3 "~" H 1600 8350 50  0001 C CNN
 	1    1600 8350
 	1    0    0    -1  
@@ -143,10 +143,10 @@ L 4xxx:40106 U?
 U 2 1 5E731EFE
 P 2200 5350
 AR Path="/5E731EFE" Ref="U?"  Part="2" 
-AR Path="/5E7241C9/5E731EFE" Ref="U?"  Part="2" 
-F 0 "U?" H 2300 5500 50  0000 C CNN
+AR Path="/5E7241C9/5E731EFE" Ref="U1"  Part="2" 
+F 0 "U1" H 2300 5500 50  0000 C CNN
 F 1 "40106" H 2400 5200 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2200 5350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2200 5350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 2200 5350 50  0001 C CNN
 	2    2200 5350
 	1    0    0    -1  
@@ -156,10 +156,10 @@ L 4xxx:40106 U?
 U 3 1 5E731F04
 P 2200 8000
 AR Path="/5E731F04" Ref="U?"  Part="3" 
-AR Path="/5E7241C9/5E731F04" Ref="U?"  Part="3" 
-F 0 "U?" H 2400 8150 50  0000 C CNN
+AR Path="/5E7241C9/5E731F04" Ref="U1"  Part="3" 
+F 0 "U1" H 2400 8150 50  0000 C CNN
 F 1 "40106" H 2350 7850 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2200 8000 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2200 8000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 2200 8000 50  0001 C CNN
 	3    2200 8000
 	1    0    0    -1  
@@ -212,10 +212,10 @@ L Device:C_Small C?
 U 1 1 5E79F9AF
 P 11050 7950
 AR Path="/5E79F9AF" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79F9AF" Ref="C?"  Part="1" 
-F 0 "C?" V 10900 7950 50  0000 C CNN
+AR Path="/5E7241C9/5E79F9AF" Ref="C9"  Part="1" 
+F 0 "C9" V 10900 7950 50  0000 C CNN
 F 1 "0.1uF" V 11200 7950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11050 7950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 11050 7950 50  0001 C CNN
 F 3 "~" H 11050 7950 50  0001 C CNN
 	1    11050 7950
 	0    1    1    0   
@@ -223,12 +223,12 @@ $EndComp
 Wire Wire Line
 	10850 7950 10950 7950
 $Comp
-L Conn_IDC_Eurorack:Conn_IDC_Box_Header_02x05_Top_Bottom J?
+L sechs-oszilleiren-rescue:Conn_IDC_Box_Header_02x05_Top_Bottom-Conn_IDC_Eurorack J?
 U 1 1 5E79F9B6
 P 14450 8100
 AR Path="/5E79F9B6" Ref="J?"  Part="1" 
-AR Path="/5E7241C9/5E79F9B6" Ref="J?"  Part="1" 
-F 0 "J?" H 14300 8400 50  0000 C CNN
+AR Path="/5E7241C9/5E79F9B6" Ref="J23"  Part="1" 
+F 0 "J23" H 14300 8400 50  0000 C CNN
 F 1 "Conn_IDC_Box_Header_02x05_Top_Bottom" H 14500 7800 50  0000 C CNN
 F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 14450 8100 50  0001 C CNN
 F 3 "~" H 14450 8100 50  0001 C CNN
@@ -240,10 +240,10 @@ L Device:CP1_Small C?
 U 1 1 5E79F9BC
 P 13450 8000
 AR Path="/5E79F9BC" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79F9BC" Ref="C?"  Part="1" 
-F 0 "C?" V 13600 8000 50  0000 C CNN
+AR Path="/5E7241C9/5E79F9BC" Ref="C15"  Part="1" 
+F 0 "C15" V 13600 8000 50  0000 C CNN
 F 1 "10uF" V 13350 8000 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 13450 8000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 13450 8000 50  0001 C CNN
 F 3 "~" H 13450 8000 50  0001 C CNN
 	1    13450 8000
 	1    0    0    -1  
@@ -253,10 +253,10 @@ L Device:C_Small C?
 U 1 1 5E79F9C2
 P 13000 8000
 AR Path="/5E79F9C2" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79F9C2" Ref="C?"  Part="1" 
-F 0 "C?" V 12850 8000 50  0000 C CNN
+AR Path="/5E7241C9/5E79F9C2" Ref="C14"  Part="1" 
+F 0 "C14" V 12850 8000 50  0000 C CNN
 F 1 "0.01uF" V 13150 8000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13000 8000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 13000 8000 50  0001 C CNN
 F 3 "~" H 13000 8000 50  0001 C CNN
 	1    13000 8000
 	-1   0    0    1   
@@ -340,10 +340,10 @@ L Amplifier_Operational:TL072 U?
 U 1 1 5E79F9FF
 P 11150 2400
 AR Path="/5E79F9FF" Ref="U?"  Part="1" 
-AR Path="/5E7241C9/5E79F9FF" Ref="U?"  Part="1" 
-F 0 "U?" H 11100 2400 50  0000 C CNN
+AR Path="/5E7241C9/5E79F9FF" Ref="U2"  Part="1" 
+F 0 "U2" H 11100 2400 50  0000 C CNN
 F 1 "TL072" H 11350 2550 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 11150 2400 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 11150 2400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11150 2400 50  0001 C CNN
 	1    11150 2400
 	1    0    0    1   
@@ -361,10 +361,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FA16
 P 11450 1600
 AR Path="/5E79FA16" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FA16" Ref="R?"  Part="1" 
-F 0 "R?" V 11350 1600 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA16" Ref="R28"  Part="1" 
+F 0 "R28" V 11350 1600 50  0000 C CNN
 F 1 "47K" V 11600 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11450 1600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11450 1600 50  0001 C CNN
 F 3 "~" H 11450 1600 50  0001 C CNN
 	1    11450 1600
 	-1   0    0    1   
@@ -379,10 +379,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FA36
 P 11100 2050
 AR Path="/5E79FA36" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FA36" Ref="R?"  Part="1" 
-F 0 "R?" V 11000 1900 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA36" Ref="R25"  Part="1" 
+F 0 "R25" V 11000 1900 50  0000 C CNN
 F 1 "10K" V 11150 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11100 2050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11100 2050 50  0001 C CNN
 F 3 "~" H 11100 2050 50  0001 C CNN
 	1    11100 2050
 	0    -1   -1   0   
@@ -402,10 +402,10 @@ L Amplifier_Operational:TL072 U?
 U 2 1 5E79FA43
 P 11150 3650
 AR Path="/5E79FA43" Ref="U?"  Part="2" 
-AR Path="/5E7241C9/5E79FA43" Ref="U?"  Part="2" 
-F 0 "U?" H 11100 3650 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA43" Ref="U2"  Part="2" 
+F 0 "U2" H 11100 3650 50  0000 C CNN
 F 1 "TL072" H 11300 3850 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 11150 3650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 11150 3650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11150 3650 50  0001 C CNN
 	2    11150 3650
 	1    0    0    1   
@@ -415,10 +415,10 @@ L Amplifier_Operational:TL072 U?
 U 3 1 5E79FA49
 P 10350 8650
 AR Path="/5E79FA49" Ref="U?"  Part="3" 
-AR Path="/5E7241C9/5E79FA49" Ref="U?"  Part="3" 
-F 0 "U?" H 10308 8696 50  0000 L CNN
+AR Path="/5E7241C9/5E79FA49" Ref="U2"  Part="3" 
+F 0 "U2" H 10308 8696 50  0000 L CNN
 F 1 "TL072" H 10308 8605 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10350 8650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 10350 8650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10350 8650 50  0001 C CNN
 	3    10350 8650
 	1    0    0    -1  
@@ -428,10 +428,10 @@ L Device:C_Small C?
 U 1 1 5E79FA4F
 P 11100 1850
 AR Path="/5E79FA4F" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79FA4F" Ref="C?"  Part="1" 
-F 0 "C?" V 11050 1750 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA4F" Ref="C10"  Part="1" 
+F 0 "C10" V 11050 1750 50  0000 C CNN
 F 1 "47pF" V 11150 2000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11100 1850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 11100 1850 50  0001 C CNN
 F 3 "~" H 11100 1850 50  0001 C CNN
 	1    11100 1850
 	0    1    1    0   
@@ -449,10 +449,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FA59
 P 11150 3300
 AR Path="/5E79FA59" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FA59" Ref="R?"  Part="1" 
-F 0 "R?" V 11100 3150 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA59" Ref="R27"  Part="1" 
+F 0 "R27" V 11100 3150 50  0000 C CNN
 F 1 "10K" V 11200 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11150 3300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11150 3300 50  0001 C CNN
 F 3 "~" H 11150 3300 50  0001 C CNN
 	1    11150 3300
 	0    -1   -1   0   
@@ -472,10 +472,10 @@ L Device:C_Small C?
 U 1 1 5E79FA65
 P 11150 3100
 AR Path="/5E79FA65" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79FA65" Ref="C?"  Part="1" 
-F 0 "C?" V 11100 3000 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA65" Ref="C11"  Part="1" 
+F 0 "C11" V 11100 3000 50  0000 C CNN
 F 1 "27pF" V 11200 3250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11150 3100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 11150 3100 50  0001 C CNN
 F 3 "~" H 11150 3100 50  0001 C CNN
 	1    11150 3100
 	0    1    1    0   
@@ -499,10 +499,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FA73
 P 11150 2850
 AR Path="/5E79FA73" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FA73" Ref="R?"  Part="1" 
-F 0 "R?" V 11100 2700 50  0000 C CNN
+AR Path="/5E7241C9/5E79FA73" Ref="R26"  Part="1" 
+F 0 "R26" V 11100 2700 50  0000 C CNN
 F 1 "10K" V 11200 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11150 2850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11150 2850 50  0001 C CNN
 F 3 "~" H 11150 2850 50  0001 C CNN
 	1    11150 2850
 	0    1    1    0   
@@ -549,10 +549,10 @@ L Device:C_Small C?
 U 1 1 5E79FAD1
 P 10150 8150
 AR Path="/5E79FAD1" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79FAD1" Ref="C?"  Part="1" 
-F 0 "C?" V 10000 8150 50  0000 C CNN
+AR Path="/5E7241C9/5E79FAD1" Ref="C8"  Part="1" 
+F 0 "C8" V 10000 8150 50  0000 C CNN
 F 1 "0.1uF" V 10300 8150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10150 8150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 10150 8150 50  0001 C CNN
 F 3 "~" H 10150 8150 50  0001 C CNN
 	1    10150 8150
 	0    1    1    0   
@@ -592,10 +592,10 @@ L 4xxx:40106 U?
 U 7 1 5E79FAE7
 P 11250 8550
 AR Path="/5E79FAE7" Ref="U?"  Part="7" 
-AR Path="/5E7241C9/5E79FAE7" Ref="U?"  Part="7" 
-F 0 "U?" H 11200 8600 50  0000 L CNN
+AR Path="/5E7241C9/5E79FAE7" Ref="U1"  Part="7" 
+F 0 "U1" H 11200 8600 50  0000 L CNN
 F 1 "40106" H 11150 8500 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11250 8550 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 11250 8550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 11250 8550 50  0001 C CNN
 	7    11250 8550
 	1    0    0    -1  
@@ -605,10 +605,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FAEF
 P 10350 3800
 AR Path="/5E79FAEF" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FAEF" Ref="R?"  Part="1" 
-F 0 "R?" V 10450 3850 50  0000 C CNN
+AR Path="/5E7241C9/5E79FAEF" Ref="R24"  Part="1" 
+F 0 "R24" V 10450 3850 50  0000 C CNN
 F 1 "10K" V 10250 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10350 3800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10350 3800 50  0001 C CNN
 F 3 "~" H 10350 3800 50  0001 C CNN
 	1    10350 3800
 	0    -1   -1   0   
@@ -618,10 +618,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FAF5
 P 10300 4100
 AR Path="/5E79FAF5" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FAF5" Ref="R?"  Part="1" 
-F 0 "R?" V 10400 4150 50  0000 C CNN
+AR Path="/5E7241C9/5E79FAF5" Ref="R19"  Part="1" 
+F 0 "R19" V 10400 4150 50  0000 C CNN
 F 1 "10K" V 10150 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10300 4100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10300 4100 50  0001 C CNN
 F 3 "~" H 10300 4100 50  0001 C CNN
 	1    10300 4100
 	0    -1   -1   0   
@@ -631,10 +631,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FAFB
 P 10300 4450
 AR Path="/5E79FAFB" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FAFB" Ref="R?"  Part="1" 
-F 0 "R?" V 10400 4500 50  0000 C CNN
+AR Path="/5E7241C9/5E79FAFB" Ref="R20"  Part="1" 
+F 0 "R20" V 10400 4500 50  0000 C CNN
 F 1 "10K" V 10200 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10300 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10300 4450 50  0001 C CNN
 F 3 "~" H 10300 4450 50  0001 C CNN
 	1    10300 4450
 	0    -1   -1   0   
@@ -644,10 +644,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FB01
 P 10300 4800
 AR Path="/5E79FB01" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FB01" Ref="R?"  Part="1" 
-F 0 "R?" V 10400 4850 50  0000 C CNN
+AR Path="/5E7241C9/5E79FB01" Ref="R21"  Part="1" 
+F 0 "R21" V 10400 4850 50  0000 C CNN
 F 1 "10K" V 10200 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10300 4800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10300 4800 50  0001 C CNN
 F 3 "~" H 10300 4800 50  0001 C CNN
 	1    10300 4800
 	0    -1   -1   0   
@@ -657,10 +657,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FB07
 P 10300 5200
 AR Path="/5E79FB07" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FB07" Ref="R?"  Part="1" 
-F 0 "R?" V 10400 5250 50  0000 C CNN
+AR Path="/5E7241C9/5E79FB07" Ref="R22"  Part="1" 
+F 0 "R22" V 10400 5250 50  0000 C CNN
 F 1 "10K" V 10200 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10300 5200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10300 5200 50  0001 C CNN
 F 3 "~" H 10300 5200 50  0001 C CNN
 	1    10300 5200
 	0    -1   -1   0   
@@ -670,10 +670,10 @@ L Device:R_Small_US R?
 U 1 1 5E79FB0D
 P 10300 5650
 AR Path="/5E79FB0D" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E79FB0D" Ref="R?"  Part="1" 
-F 0 "R?" V 10400 5700 50  0000 C CNN
+AR Path="/5E7241C9/5E79FB0D" Ref="R23"  Part="1" 
+F 0 "R23" V 10400 5700 50  0000 C CNN
 F 1 "10K" V 10200 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10300 5650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10300 5650 50  0001 C CNN
 F 3 "~" H 10300 5650 50  0001 C CNN
 	1    10300 5650
 	0    -1   -1   0   
@@ -788,10 +788,10 @@ L Device:C_Small C?
 U 1 1 5E79FB58
 P 10100 8950
 AR Path="/5E79FB58" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E79FB58" Ref="C?"  Part="1" 
-F 0 "C?" V 9950 8950 50  0000 C CNN
+AR Path="/5E7241C9/5E79FB58" Ref="C7"  Part="1" 
+F 0 "C7" V 9950 8950 50  0000 C CNN
 F 1 "0.1uF" V 10250 8950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10100 8950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 10100 8950 50  0001 C CNN
 F 3 "~" H 10100 8950 50  0001 C CNN
 	1    10100 8950
 	0    1    1    0   
@@ -823,10 +823,10 @@ L Device:C C?
 U 1 1 5E832A40
 P 6600 3050
 AR Path="/5E832A40" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E832A40" Ref="C?"  Part="1" 
-F 0 "C?" H 6715 3096 50  0000 L CNN
+AR Path="/5E7241C9/5E832A40" Ref="C6"  Part="1" 
+F 0 "C6" H 6715 3096 50  0000 L CNN
 F 1 "0.1uF" H 6715 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6638 2900 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6638 2900 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
 	1    6600 3050
 	1    0    0    -1  
@@ -838,10 +838,10 @@ L 4xxx:40106 U?
 U 4 1 5E832A55
 P 7200 2700
 AR Path="/5E832A55" Ref="U?"  Part="4" 
-AR Path="/5E7241C9/5E832A55" Ref="U?"  Part="4" 
-F 0 "U?" H 7450 2850 50  0000 C CNN
+AR Path="/5E7241C9/5E832A55" Ref="U1"  Part="4" 
+F 0 "U1" H 7450 2850 50  0000 C CNN
 F 1 "40106" H 7450 2550 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7200 2700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7200 2700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 7200 2700 50  0001 C CNN
 	4    7200 2700
 	1    0    0    -1  
@@ -851,10 +851,10 @@ L Device:R_Small_US R?
 U 1 1 5E832A63
 P 6300 2700
 AR Path="/5E832A63" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E832A63" Ref="R?"  Part="1" 
-F 0 "R?" V 6095 2700 50  0000 C CNN
+AR Path="/5E7241C9/5E832A63" Ref="R18"  Part="1" 
+F 0 "R18" V 6095 2700 50  0000 C CNN
 F 1 "1K" V 6186 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6300 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6300 2700 50  0001 C CNN
 F 3 "~" H 6300 2700 50  0001 C CNN
 	1    6300 2700
 	0    1    1    0   
@@ -864,10 +864,10 @@ L Device:D_Small_ALT D?
 U 1 1 5E832A6A
 P 5900 2700
 AR Path="/5E832A6A" Ref="D?"  Part="1" 
-AR Path="/5E7241C9/5E832A6A" Ref="D?"  Part="1" 
-F 0 "D?" H 5900 2495 50  0000 C CNN
+AR Path="/5E7241C9/5E832A6A" Ref="D11"  Part="1" 
+F 0 "D11" H 5900 2495 50  0000 C CNN
 F 1 "1N4148" H 5900 2586 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 5900 2700 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5900 2700 50  0001 C CNN
 F 3 "~" V 5900 2700 50  0001 C CNN
 	1    5900 2700
 	-1   0    0    1   
@@ -901,10 +901,10 @@ L Device:C C?
 U 1 1 5E832A8C
 P 6550 5700
 AR Path="/5E832A8C" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E832A8C" Ref="C?"  Part="1" 
-F 0 "C?" H 6665 5746 50  0000 L CNN
+AR Path="/5E7241C9/5E832A8C" Ref="C4"  Part="1" 
+F 0 "C4" H 6665 5746 50  0000 L CNN
 F 1 "0.1uF" H 6665 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 5550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6588 5550 50  0001 C CNN
 F 3 "~" H 6550 5700 50  0001 C CNN
 	1    6550 5700
 	1    0    0    -1  
@@ -916,10 +916,10 @@ L Device:R_Small_US R?
 U 1 1 5E832AA9
 P 6250 5350
 AR Path="/5E832AA9" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E832AA9" Ref="R?"  Part="1" 
-F 0 "R?" V 6045 5350 50  0000 C CNN
+AR Path="/5E7241C9/5E832AA9" Ref="R16"  Part="1" 
+F 0 "R16" V 6045 5350 50  0000 C CNN
 F 1 "1K" V 6136 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6250 5350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6250 5350 50  0001 C CNN
 F 3 "~" H 6250 5350 50  0001 C CNN
 	1    6250 5350
 	0    1    1    0   
@@ -929,10 +929,10 @@ L Device:D_Small_ALT D?
 U 1 1 5E832AB0
 P 5850 5350
 AR Path="/5E832AB0" Ref="D?"  Part="1" 
-AR Path="/5E7241C9/5E832AB0" Ref="D?"  Part="1" 
-F 0 "D?" H 5850 5145 50  0000 C CNN
+AR Path="/5E7241C9/5E832AB0" Ref="D9"  Part="1" 
+F 0 "D9" H 5850 5145 50  0000 C CNN
 F 1 "1N4148" H 5850 5236 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 5850 5350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5850 5350 50  0001 C CNN
 F 3 "~" V 5850 5350 50  0001 C CNN
 	1    5850 5350
 	-1   0    0    1   
@@ -956,10 +956,10 @@ L Device:C C?
 U 1 1 5E832ACC
 P 6550 8350
 AR Path="/5E832ACC" Ref="C?"  Part="1" 
-AR Path="/5E7241C9/5E832ACC" Ref="C?"  Part="1" 
-F 0 "C?" H 6665 8396 50  0000 L CNN
+AR Path="/5E7241C9/5E832ACC" Ref="C5"  Part="1" 
+F 0 "C5" H 6665 8396 50  0000 L CNN
 F 1 "0.1uF" H 6665 8305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 8200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6588 8200 50  0001 C CNN
 F 3 "~" H 6550 8350 50  0001 C CNN
 	1    6550 8350
 	1    0    0    -1  
@@ -969,10 +969,10 @@ L Device:R_Small_US R?
 U 1 1 5E832ADA
 P 6250 8000
 AR Path="/5E832ADA" Ref="R?"  Part="1" 
-AR Path="/5E7241C9/5E832ADA" Ref="R?"  Part="1" 
-F 0 "R?" V 6045 8000 50  0000 C CNN
+AR Path="/5E7241C9/5E832ADA" Ref="R17"  Part="1" 
+F 0 "R17" V 6045 8000 50  0000 C CNN
 F 1 "1K" V 6136 8000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6250 8000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6250 8000 50  0001 C CNN
 F 3 "~" H 6250 8000 50  0001 C CNN
 	1    6250 8000
 	0    1    1    0   
@@ -986,10 +986,10 @@ L 4xxx:40106 U?
 U 5 1 5E832AE2
 P 7150 5350
 AR Path="/5E832AE2" Ref="U?"  Part="5" 
-AR Path="/5E7241C9/5E832AE2" Ref="U?"  Part="5" 
-F 0 "U?" H 7150 5667 50  0000 C CNN
+AR Path="/5E7241C9/5E832AE2" Ref="U1"  Part="5" 
+F 0 "U1" H 7150 5667 50  0000 C CNN
 F 1 "40106" H 7150 5576 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7150 5350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7150 5350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 7150 5350 50  0001 C CNN
 	5    7150 5350
 	1    0    0    -1  
@@ -999,10 +999,10 @@ L 4xxx:40106 U?
 U 6 1 5E832AE8
 P 7150 8000
 AR Path="/5E832AE8" Ref="U?"  Part="6" 
-AR Path="/5E7241C9/5E832AE8" Ref="U?"  Part="6" 
-F 0 "U?" H 7250 8150 50  0000 C CNN
+AR Path="/5E7241C9/5E832AE8" Ref="U1"  Part="6" 
+F 0 "U1" H 7250 8150 50  0000 C CNN
 F 1 "40106" H 7250 7800 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7150 8000 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7150 8000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 7150 8000 50  0001 C CNN
 	6    7150 8000
 	1    0    0    -1  
@@ -1022,10 +1022,10 @@ L Device:D_Small_ALT D?
 U 1 1 5E861E62
 P 5850 8000
 AR Path="/5E861E62" Ref="D?"  Part="1" 
-AR Path="/5E7241C9/5E861E62" Ref="D?"  Part="1" 
-F 0 "D?" H 5850 7795 50  0000 C CNN
+AR Path="/5E7241C9/5E861E62" Ref="D10"  Part="1" 
+F 0 "D10" H 5850 7795 50  0000 C CNN
 F 1 "1N4148" H 5850 7886 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" V 5850 8000 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5850 8000 50  0001 C CNN
 F 3 "~" V 5850 8000 50  0001 C CNN
 	1    5850 8000
 	-1   0    0    1   
@@ -1083,23 +1083,23 @@ Wire Wire Line
 Wire Wire Line
 	11900 5700 11950 5700
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R30
 U 1 1 5E6EDD87
 P 11800 6300
-F 0 "R?" V 11700 6300 50  0000 C CNN
+F 0 "R30" V 11700 6300 50  0000 C CNN
 F 1 "100R" V 11900 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11800 6300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11800 6300 50  0001 C CNN
 F 3 "~" H 11800 6300 50  0001 C CNN
 	1    11800 6300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R29
 U 1 1 5E6EDD8D
 P 11800 5700
-F 0 "R?" V 11700 5700 50  0000 C CNN
+F 0 "R29" V 11700 5700 50  0000 C CNN
 F 1 "100R" V 11900 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11800 5700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11800 5700 50  0001 C CNN
 F 3 "~" H 11800 5700 50  0001 C CNN
 	1    11800 5700
 	0    -1   -1   0   
@@ -1108,23 +1108,23 @@ Connection ~ 11700 5950
 Wire Wire Line
 	11700 5950 11700 5700
 $Comp
-L Device:CP1_Small C?
+L Device:CP1_Small C12
 U 1 1 5E6EDD96
 P 12050 5700
-F 0 "C?" V 12200 5700 50  0000 C CNN
+F 0 "C12" V 12200 5700 50  0000 C CNN
 F 1 "10uF" V 11950 5700 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 12050 5700 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 12050 5700 50  0001 C CNN
 F 3 "~" H 12050 5700 50  0001 C CNN
 	1    12050 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP1_Small C?
+L Device:CP1_Small C13
 U 1 1 5E6EDD9C
 P 12050 6300
-F 0 "C?" V 12200 6300 50  0000 C CNN
+F 0 "C13" V 12200 6300 50  0000 C CNN
 F 1 "10uF" V 11950 6300 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 12050 6300 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 12050 6300 50  0001 C CNN
 F 3 "~" H 12050 6300 50  0001 C CNN
 	1    12050 6300
 	0    -1   -1   0   
@@ -1296,12 +1296,12 @@ level_pot_1
 Text Label 12100 1150 0    50   ~ 0
 output_indicator
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J24
 U 1 1 5EA1CC07
 P 15300 7900
-F 0 "J?" H 15328 7876 50  0000 L CNN
+F 0 "J24" H 15328 7876 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 15328 7785 50  0000 L CNN
-F 2 "" H 15300 7900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 15300 7900 50  0001 C CNN
 F 3 "~" H 15300 7900 50  0001 C CNN
 	1    15300 7900
 	1    0    0    -1  
@@ -1343,34 +1343,34 @@ Wire Wire Line
 Wire Wire Line
 	15500 6550 14450 6550
 $Comp
-L Connector:Conn_01x05_Female J?
+L Connector:Conn_01x05_Female J28
 U 1 1 5EA1DBB4
 P 15700 6550
-F 0 "J?" H 15728 6576 50  0000 L CNN
+F 0 "J28" H 15728 6576 50  0000 L CNN
 F 1 "Conn_01x05_Female" H 15728 6485 50  0000 L CNN
-F 2 "" H 15700 6550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 15700 6550 50  0001 C CNN
 F 3 "~" H 15700 6550 50  0001 C CNN
 	1    15700 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J27
 U 1 1 5EA8D05B
 P 15700 5000
-F 0 "J?" H 15728 4976 50  0000 L CNN
+F 0 "J27" H 15728 4976 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 15728 4885 50  0000 L CNN
-F 2 "" H 15700 5000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 15700 5000 50  0001 C CNN
 F 3 "~" H 15700 5000 50  0001 C CNN
 	1    15700 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x12_Female J?
+L Connector:Conn_01x12_Female J26
 U 1 1 5EA91269
 P 15700 3300
-F 0 "J?" H 15728 3276 50  0000 L CNN
+F 0 "J26" H 15728 3276 50  0000 L CNN
 F 1 "Conn_01x12_Female" H 15728 3185 50  0000 L CNN
-F 2 "" H 15700 3300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 15700 3300 50  0001 C CNN
 F 3 "~" H 15700 3300 50  0001 C CNN
 	1    15700 3300
 	1    0    0    -1  
@@ -1550,12 +1550,12 @@ Wire Wire Line
 Wire Wire Line
 	14900 1750 14100 1750
 $Comp
-L Connector:Conn_01x09_Female J?
+L Connector:Conn_01x09_Female J25
 U 1 1 5EC5569C
 P 15700 1450
-F 0 "J?" H 15728 1476 50  0000 L CNN
+F 0 "J25" H 15728 1476 50  0000 L CNN
 F 1 "Conn_01x09_Female" H 15728 1385 50  0000 L CNN
-F 2 "" H 15700 1450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 15700 1450 50  0001 C CNN
 F 3 "~" H 15700 1450 50  0001 C CNN
 	1    15700 1450
 	1    0    0    -1  

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sechs-oszilleiren_backup-cache
+LIBS:sechs-oszilleiren-cache
 EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
@@ -19,8 +19,8 @@ L Connector:AudioJack2 J?
 U 1 1 5E75A5E9
 P 4550 2250
 AR Path="/5E75A5E9" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5E75A5E9" Ref="J?"  Part="1" 
-F 0 "J?" H 4370 2233 50  0000 R CNN
+AR Path="/5E724F09/5E75A5E9" Ref="J4"  Part="1" 
+F 0 "J4" H 4370 2233 50  0000 R CNN
 F 1 "AudioJack2" H 4370 2324 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4550 2250 50  0001 C CNN
 F 3 "~" H 4550 2250 50  0001 C CNN
@@ -49,10 +49,10 @@ L Transistor_BJT:2N3904 Q?
 U 1 1 5E75A63F
 P 5000 1550
 AR Path="/5E75A63F" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5E75A63F" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5200 1700 50  0000 L CNN
+AR Path="/5E724F09/5E75A63F" Ref="Q1"  Part="1" 
+F 0 "Q1" H 5200 1700 50  0000 L CNN
 F 1 "2N3904" H 5200 1450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 1475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 5200 1475 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5000 1550 50  0001 L CNN
 	1    5000 1550
 	1    0    0    -1  
@@ -62,10 +62,10 @@ L Device:R_Small_US R?
 U 1 1 5E75A645
 P 5100 1100
 AR Path="/5E75A645" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5E75A645" Ref="R?"  Part="1" 
-F 0 "R?" H 4950 1100 50  0000 L CNN
+AR Path="/5E724F09/5E75A645" Ref="R4"  Part="1" 
+F 0 "R4" H 4950 1100 50  0000 L CNN
 F 1 "2K" H 5200 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 1100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5100 1100 50  0001 C CNN
 F 3 "~" H 5100 1100 50  0001 C CNN
 	1    5100 1100
 	1    0    0    -1  
@@ -75,10 +75,10 @@ L Device:R_Small_US R?
 U 1 1 5E75A64B
 P 4600 1550
 AR Path="/5E75A64B" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5E75A64B" Ref="R?"  Part="1" 
-F 0 "R?" V 4500 1550 50  0000 C CNN
+AR Path="/5E724F09/5E75A64B" Ref="R1"  Part="1" 
+F 0 "R1" V 4500 1550 50  0000 C CNN
 F 1 "47K" V 4750 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4600 1550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4600 1550 50  0001 C CNN
 F 3 "~" H 4600 1550 50  0001 C CNN
 	1    4600 1550
 	0    1    1    0   
@@ -88,8 +88,8 @@ L Device:LED_Small_ALT D?
 U 1 1 5E75A651
 P 5100 1950
 AR Path="/5E75A651" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5E75A651" Ref="D?"  Part="1" 
-F 0 "D?" V 5146 1882 50  0000 R CNN
+AR Path="/5E724F09/5E75A651" Ref="D1"  Part="1" 
+F 0 "D1" V 5146 1882 50  0000 R CNN
 F 1 "R" V 5055 1882 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5100 1950 50  0001 C CNN
 F 3 "~" V 5100 1950 50  0001 C CNN
@@ -133,8 +133,8 @@ L Connector:AudioJack2 J?
 U 1 1 5E80C6E7
 P 6150 950
 AR Path="/5E80C6E7" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5E80C6E7" Ref="J?"  Part="1" 
-F 0 "J?" H 5971 933 50  0000 R CNN
+AR Path="/5E724F09/5E80C6E7" Ref="J7"  Part="1" 
+F 0 "J7" H 5971 933 50  0000 R CNN
 F 1 "AudioJack2" H 5971 1024 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6150 950 50  0001 C CNN
 F 3 "~" H 6150 950 50  0001 C CNN
@@ -165,8 +165,8 @@ L Device:R_POT_US RV?
 U 1 1 5E80C750
 P 8400 1700
 AR Path="/5E80C750" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5E80C750" Ref="RV?"  Part="1" 
-F 0 "RV?" V 8287 1700 50  0000 C CNN
+AR Path="/5E724F09/5E80C750" Ref="RV5"  Part="1" 
+F 0 "RV5" V 8287 1700 50  0000 C CNN
 F 1 "B100K" V 8300 1450 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8400 1700 50  0001 C CNN
 F 3 "~" H 8400 1700 50  0001 C CNN
@@ -189,8 +189,8 @@ L Connector:AudioJack2 J?
 U 1 1 5E80C771
 P 9650 2400
 AR Path="/5E80C771" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5E80C771" Ref="J?"  Part="1" 
-F 0 "J?" H 9470 2383 50  0000 R CNN
+AR Path="/5E724F09/5E80C771" Ref="J14"  Part="1" 
+F 0 "J14" H 9470 2383 50  0000 R CNN
 F 1 "AudioJack2" H 9470 2474 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9650 2400 50  0001 C CNN
 F 3 "~" H 9650 2400 50  0001 C CNN
@@ -219,10 +219,10 @@ L Transistor_BJT:2N3904 Q?
 U 1 1 5E80C7CB
 P 10100 1700
 AR Path="/5E80C7CB" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5E80C7CB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10290 1746 50  0000 L CNN
+AR Path="/5E724F09/5E80C7CB" Ref="Q5"  Part="1" 
+F 0 "Q5" H 10290 1746 50  0000 L CNN
 F 1 "2N3904" H 10290 1655 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 1625 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 10300 1625 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10100 1700 50  0001 L CNN
 	1    10100 1700
 	1    0    0    -1  
@@ -232,10 +232,10 @@ L Device:R_Small_US R?
 U 1 1 5E80C7D1
 P 10200 1250
 AR Path="/5E80C7D1" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5E80C7D1" Ref="R?"  Part="1" 
-F 0 "R?" H 10268 1296 50  0000 L CNN
+AR Path="/5E724F09/5E80C7D1" Ref="R11"  Part="1" 
+F 0 "R11" H 10268 1296 50  0000 L CNN
 F 1 "2K" H 10268 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10200 1250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10200 1250 50  0001 C CNN
 F 3 "~" H 10200 1250 50  0001 C CNN
 	1    10200 1250
 	1    0    0    -1  
@@ -245,10 +245,10 @@ L Device:R_Small_US R?
 U 1 1 5E80C7D7
 P 9700 1700
 AR Path="/5E80C7D7" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5E80C7D7" Ref="R?"  Part="1" 
-F 0 "R?" V 9495 1700 50  0000 C CNN
+AR Path="/5E724F09/5E80C7D7" Ref="R8"  Part="1" 
+F 0 "R8" V 9495 1700 50  0000 C CNN
 F 1 "47K" V 9586 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9700 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9700 1700 50  0001 C CNN
 F 3 "~" H 9700 1700 50  0001 C CNN
 	1    9700 1700
 	0    1    1    0   
@@ -258,8 +258,8 @@ L Device:LED_Small_ALT D?
 U 1 1 5E80C7DD
 P 10200 2100
 AR Path="/5E80C7DD" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5E80C7DD" Ref="D?"  Part="1" 
-F 0 "D?" V 10246 2032 50  0000 R CNN
+AR Path="/5E724F09/5E80C7DD" Ref="D5"  Part="1" 
+F 0 "D5" V 10246 2032 50  0000 R CNN
 F 1 "R" V 10155 2032 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 10200 2100 50  0001 C CNN
 F 3 "~" V 10200 2100 50  0001 C CNN
@@ -302,10 +302,10 @@ U 1 1 5E8D64CB
 P 12250 1550
 AR Path="/5E8D64CB" Ref="Q?"  Part="1" 
 AR Path="/5E7241C9/5E8D64CB" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5E8D64CB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 12450 1700 50  0000 L CNN
+AR Path="/5E724F09/5E8D64CB" Ref="Q7"  Part="1" 
+F 0 "Q7" H 12450 1700 50  0000 L CNN
 F 1 "2N3904" H 12450 1450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12450 1475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 12450 1475 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 12250 1550 50  0001 L CNN
 	1    12250 1550
 	1    0    0    -1  
@@ -316,10 +316,10 @@ U 1 1 5E8D64D1
 P 12350 1200
 AR Path="/5E8D64D1" Ref="R?"  Part="1" 
 AR Path="/5E7241C9/5E8D64D1" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5E8D64D1" Ref="R?"  Part="1" 
-F 0 "R?" H 12200 1200 50  0000 L CNN
+AR Path="/5E724F09/5E8D64D1" Ref="R15"  Part="1" 
+F 0 "R15" H 12200 1200 50  0000 L CNN
 F 1 "2K" H 12450 1200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 12350 1200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 12350 1200 50  0001 C CNN
 F 3 "~" H 12350 1200 50  0001 C CNN
 	1    12350 1200
 	1    0    0    -1  
@@ -330,8 +330,8 @@ U 1 1 5E8D64D7
 P 12350 1950
 AR Path="/5E8D64D7" Ref="D?"  Part="1" 
 AR Path="/5E7241C9/5E8D64D7" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5E8D64D7" Ref="D?"  Part="1" 
-F 0 "D?" V 12396 1882 50  0000 R CNN
+AR Path="/5E724F09/5E8D64D7" Ref="D8"  Part="1" 
+F 0 "D8" V 12396 1882 50  0000 R CNN
 F 1 "Y" V 12305 1882 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 12350 1950 50  0001 C CNN
 F 3 "~" V 12350 1950 50  0001 C CNN
@@ -382,8 +382,8 @@ U 1 1 5E8D64EE
 P 11500 3300
 AR Path="/5E8D64EE" Ref="RV?"  Part="1" 
 AR Path="/5E7241C9/5E8D64EE" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5E8D64EE" Ref="RV?"  Part="1" 
-F 0 "RV?" V 11400 3300 50  0000 R CNN
+AR Path="/5E724F09/5E8D64EE" Ref="RV7"  Part="1" 
+F 0 "RV7" V 11400 3300 50  0000 R CNN
 F 1 "A10K" V 11550 3600 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 11500 3300 50  0001 C CNN
 F 3 "~" H 11500 3300 50  0001 C CNN
@@ -412,8 +412,8 @@ U 1 1 5E8D6500
 P 12400 3650
 AR Path="/5E8D6500" Ref="J?"  Part="1" 
 AR Path="/5E7241C9/5E8D6500" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5E8D6500" Ref="J?"  Part="1" 
-F 0 "J?" H 12300 3500 50  0000 R CNN
+AR Path="/5E724F09/5E8D6500" Ref="J18"  Part="1" 
+F 0 "J18" H 12300 3500 50  0000 R CNN
 F 1 "AudioJack2" H 12500 3900 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 12400 3650 50  0001 C CNN
 F 3 "~" H 12400 3650 50  0001 C CNN
@@ -442,8 +442,8 @@ U 1 1 5E8D6519
 P 12400 3050
 AR Path="/5E8D6519" Ref="J?"  Part="1" 
 AR Path="/5E7241C9/5E8D6519" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5E8D6519" Ref="J?"  Part="1" 
-F 0 "J?" H 12300 2900 50  0000 R CNN
+AR Path="/5E724F09/5E8D6519" Ref="J17"  Part="1" 
+F 0 "J17" H 12300 2900 50  0000 R CNN
 F 1 "AudioJack2" H 12500 3250 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 12400 3050 50  0001 C CNN
 F 3 "~" H 12400 3050 50  0001 C CNN
@@ -468,10 +468,10 @@ L Device:R_Small_US R?
 U 1 1 5E8D84A8
 P 11900 1550
 AR Path="/5E8D84A8" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5E8D84A8" Ref="R?"  Part="1" 
-F 0 "R?" V 11800 1550 50  0000 C CNN
+AR Path="/5E724F09/5E8D84A8" Ref="R14"  Part="1" 
+F 0 "R14" V 11800 1550 50  0000 C CNN
 F 1 "47K" V 12050 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11900 1550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11900 1550 50  0001 C CNN
 F 3 "~" H 11900 1550 50  0001 C CNN
 	1    11900 1550
 	0    1    1    0   
@@ -498,8 +498,8 @@ L Device:R_POT_US RV?
 U 1 1 5E9A79F9
 P 3300 1550
 AR Path="/5E9A79F9" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5E9A79F9" Ref="RV?"  Part="1" 
-F 0 "RV?" V 3187 1550 50  0000 C CNN
+AR Path="/5E724F09/5E9A79F9" Ref="RV1"  Part="1" 
+F 0 "RV1" V 3187 1550 50  0000 C CNN
 F 1 "B100K" V 3200 1300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 3300 1550 50  0001 C CNN
 F 3 "~" H 3300 1550 50  0001 C CNN
@@ -525,19 +525,19 @@ L Device:R_Small_US R?
 U 1 1 5EAAEC78
 P 11450 8200
 AR Path="/5EAAEC78" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EAAEC78" Ref="R?"  Part="1" 
-F 0 "R?" V 11350 8150 50  0000 C CNN
+AR Path="/5E724F09/5EAAEC78" Ref="R13"  Part="1" 
+F 0 "R13" V 11350 8150 50  0000 C CNN
 F 1 "22K" V 11550 8250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11450 8200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11450 8200 50  0001 C CNN
 F 3 "~" H 11450 8200 50  0001 C CNN
 	1    11450 8200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D?
+L Device:LED_Small_ALT D7
 U 1 1 5EAAEC7E
 P 11450 8750
-F 0 "D?" V 11496 8682 50  0000 R CNN
+F 0 "D7" V 11496 8682 50  0000 R CNN
 F 1 "R" V 11405 8682 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 11450 8750 50  0001 C CNN
 F 3 "~" V 11450 8750 50  0001 C CNN
@@ -634,12 +634,12 @@ level_pot_w
 Text Label 11350 3050 2    50   ~ 0
 mix_out
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J16
 U 1 1 5EE00337
 P 12100 8400
-F 0 "J?" H 12072 8282 50  0000 R CNN
+F 0 "J16" H 12072 8282 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 12072 8373 50  0000 R CNN
-F 2 "" H 12100 8400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12100 8400 50  0001 C CNN
 F 3 "~" H 12100 8400 50  0001 C CNN
 	1    12100 8400
 	-1   0    0    1   
@@ -649,8 +649,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE0A618
 P 4700 5150
 AR Path="/5EE0A618" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE0A618" Ref="J?"  Part="1" 
-F 0 "J?" H 4520 5133 50  0000 R CNN
+AR Path="/5E724F09/5EE0A618" Ref="J5"  Part="1" 
+F 0 "J5" H 4520 5133 50  0000 R CNN
 F 1 "AudioJack2" H 4520 5224 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4700 5150 50  0001 C CNN
 F 3 "~" H 4700 5150 50  0001 C CNN
@@ -679,10 +679,10 @@ L Transistor_BJT:2N3904 Q?
 U 1 1 5EE0A626
 P 5150 4450
 AR Path="/5EE0A626" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5EE0A626" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5350 4600 50  0000 L CNN
+AR Path="/5E724F09/5EE0A626" Ref="Q2"  Part="1" 
+F 0 "Q2" H 5350 4600 50  0000 L CNN
 F 1 "2N3904" H 5350 4350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 4375 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 5350 4375 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5150 4450 50  0001 L CNN
 	1    5150 4450
 	1    0    0    -1  
@@ -692,10 +692,10 @@ L Device:R_Small_US R?
 U 1 1 5EE0A62C
 P 5250 4000
 AR Path="/5EE0A62C" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE0A62C" Ref="R?"  Part="1" 
-F 0 "R?" H 5100 4000 50  0000 L CNN
+AR Path="/5E724F09/5EE0A62C" Ref="R5"  Part="1" 
+F 0 "R5" H 5100 4000 50  0000 L CNN
 F 1 "2K" H 5350 4000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5250 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5250 4000 50  0001 C CNN
 F 3 "~" H 5250 4000 50  0001 C CNN
 	1    5250 4000
 	1    0    0    -1  
@@ -705,10 +705,10 @@ L Device:R_Small_US R?
 U 1 1 5EE0A632
 P 4750 4450
 AR Path="/5EE0A632" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE0A632" Ref="R?"  Part="1" 
-F 0 "R?" V 4650 4450 50  0000 C CNN
+AR Path="/5E724F09/5EE0A632" Ref="R2"  Part="1" 
+F 0 "R2" V 4650 4450 50  0000 C CNN
 F 1 "47K" V 4900 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4750 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4750 4450 50  0001 C CNN
 F 3 "~" H 4750 4450 50  0001 C CNN
 	1    4750 4450
 	0    1    1    0   
@@ -718,8 +718,8 @@ L Device:LED_Small_ALT D?
 U 1 1 5EE0A638
 P 5250 4850
 AR Path="/5EE0A638" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5EE0A638" Ref="D?"  Part="1" 
-F 0 "D?" V 5296 4782 50  0000 R CNN
+AR Path="/5E724F09/5EE0A638" Ref="D2"  Part="1" 
+F 0 "D2" V 5296 4782 50  0000 R CNN
 F 1 "R" V 5205 4782 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5250 4850 50  0001 C CNN
 F 3 "~" V 5250 4850 50  0001 C CNN
@@ -761,8 +761,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE0A64D
 P 6150 3900
 AR Path="/5EE0A64D" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE0A64D" Ref="J?"  Part="1" 
-F 0 "J?" H 5971 3883 50  0000 R CNN
+AR Path="/5E724F09/5EE0A64D" Ref="J9"  Part="1" 
+F 0 "J9" H 5971 3883 50  0000 R CNN
 F 1 "AudioJack2" H 5971 3974 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6150 3900 50  0001 C CNN
 F 3 "~" H 6150 3900 50  0001 C CNN
@@ -793,8 +793,8 @@ L Device:R_POT_US RV?
 U 1 1 5EE0A65C
 P 8400 4800
 AR Path="/5EE0A65C" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5EE0A65C" Ref="RV?"  Part="1" 
-F 0 "RV?" V 8287 4800 50  0000 C CNN
+AR Path="/5E724F09/5EE0A65C" Ref="RV6"  Part="1" 
+F 0 "RV6" V 8287 4800 50  0000 C CNN
 F 1 "B100K" V 8300 4550 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8400 4800 50  0001 C CNN
 F 3 "~" H 8400 4800 50  0001 C CNN
@@ -817,8 +817,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE0A668
 P 9650 5500
 AR Path="/5EE0A668" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE0A668" Ref="J?"  Part="1" 
-F 0 "J?" H 9470 5483 50  0000 R CNN
+AR Path="/5E724F09/5EE0A668" Ref="J15"  Part="1" 
+F 0 "J15" H 9470 5483 50  0000 R CNN
 F 1 "AudioJack2" H 9470 5574 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9650 5500 50  0001 C CNN
 F 3 "~" H 9650 5500 50  0001 C CNN
@@ -847,10 +847,10 @@ L Transistor_BJT:2N3904 Q?
 U 1 1 5EE0A676
 P 10100 4800
 AR Path="/5EE0A676" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5EE0A676" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10290 4846 50  0000 L CNN
+AR Path="/5E724F09/5EE0A676" Ref="Q6"  Part="1" 
+F 0 "Q6" H 10290 4846 50  0000 L CNN
 F 1 "2N3904" H 10290 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 4725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 10300 4725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10100 4800 50  0001 L CNN
 	1    10100 4800
 	1    0    0    -1  
@@ -860,10 +860,10 @@ L Device:R_Small_US R?
 U 1 1 5EE0A67C
 P 10200 4350
 AR Path="/5EE0A67C" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE0A67C" Ref="R?"  Part="1" 
-F 0 "R?" H 10268 4396 50  0000 L CNN
+AR Path="/5E724F09/5EE0A67C" Ref="R12"  Part="1" 
+F 0 "R12" H 10268 4396 50  0000 L CNN
 F 1 "2K" H 10268 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10200 4350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10200 4350 50  0001 C CNN
 F 3 "~" H 10200 4350 50  0001 C CNN
 	1    10200 4350
 	1    0    0    -1  
@@ -873,10 +873,10 @@ L Device:R_Small_US R?
 U 1 1 5EE0A682
 P 9700 4800
 AR Path="/5EE0A682" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE0A682" Ref="R?"  Part="1" 
-F 0 "R?" V 9495 4800 50  0000 C CNN
+AR Path="/5E724F09/5EE0A682" Ref="R9"  Part="1" 
+F 0 "R9" V 9495 4800 50  0000 C CNN
 F 1 "47K" V 9586 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9700 4800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9700 4800 50  0001 C CNN
 F 3 "~" H 9700 4800 50  0001 C CNN
 	1    9700 4800
 	0    1    1    0   
@@ -886,8 +886,8 @@ L Device:LED_Small_ALT D?
 U 1 1 5EE0A688
 P 10200 5200
 AR Path="/5EE0A688" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5EE0A688" Ref="D?"  Part="1" 
-F 0 "D?" V 10246 5132 50  0000 R CNN
+AR Path="/5E724F09/5EE0A688" Ref="D6"  Part="1" 
+F 0 "D6" V 10246 5132 50  0000 R CNN
 F 1 "R" V 10155 5132 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 10200 5200 50  0001 C CNN
 F 3 "~" V 10200 5200 50  0001 C CNN
@@ -944,8 +944,8 @@ L Device:R_POT_US RV?
 U 1 1 5EE0A6A5
 P 3450 4450
 AR Path="/5EE0A6A5" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5EE0A6A5" Ref="RV?"  Part="1" 
-F 0 "RV?" V 3337 4450 50  0000 C CNN
+AR Path="/5E724F09/5EE0A6A5" Ref="RV2"  Part="1" 
+F 0 "RV2" V 3337 4450 50  0000 C CNN
 F 1 "B100K" V 3350 4200 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 3450 4450 50  0001 C CNN
 F 3 "~" H 3450 4450 50  0001 C CNN
@@ -979,8 +979,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE184BC
 P 4750 8450
 AR Path="/5EE184BC" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE184BC" Ref="J?"  Part="1" 
-F 0 "J?" H 4570 8433 50  0000 R CNN
+AR Path="/5E724F09/5EE184BC" Ref="J6"  Part="1" 
+F 0 "J6" H 4570 8433 50  0000 R CNN
 F 1 "AudioJack2" H 4570 8524 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4750 8450 50  0001 C CNN
 F 3 "~" H 4750 8450 50  0001 C CNN
@@ -1009,10 +1009,10 @@ L Transistor_BJT:2N3904 Q?
 U 1 1 5EE184CA
 P 5200 7750
 AR Path="/5EE184CA" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5EE184CA" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5400 7900 50  0000 L CNN
+AR Path="/5E724F09/5EE184CA" Ref="Q3"  Part="1" 
+F 0 "Q3" H 5400 7900 50  0000 L CNN
 F 1 "2N3904" H 5400 7650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 7675 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 5400 7675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5200 7750 50  0001 L CNN
 	1    5200 7750
 	1    0    0    -1  
@@ -1022,10 +1022,10 @@ L Device:R_Small_US R?
 U 1 1 5EE184D0
 P 5300 7300
 AR Path="/5EE184D0" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE184D0" Ref="R?"  Part="1" 
-F 0 "R?" H 5150 7300 50  0000 L CNN
+AR Path="/5E724F09/5EE184D0" Ref="R6"  Part="1" 
+F 0 "R6" H 5150 7300 50  0000 L CNN
 F 1 "2K" H 5400 7300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5300 7300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5300 7300 50  0001 C CNN
 F 3 "~" H 5300 7300 50  0001 C CNN
 	1    5300 7300
 	1    0    0    -1  
@@ -1035,10 +1035,10 @@ L Device:R_Small_US R?
 U 1 1 5EE184D6
 P 4800 7750
 AR Path="/5EE184D6" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE184D6" Ref="R?"  Part="1" 
-F 0 "R?" V 4700 7750 50  0000 C CNN
+AR Path="/5E724F09/5EE184D6" Ref="R3"  Part="1" 
+F 0 "R3" V 4700 7750 50  0000 C CNN
 F 1 "47K" V 4950 7750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4800 7750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4800 7750 50  0001 C CNN
 F 3 "~" H 4800 7750 50  0001 C CNN
 	1    4800 7750
 	0    1    1    0   
@@ -1048,8 +1048,8 @@ L Device:LED_Small_ALT D?
 U 1 1 5EE184DC
 P 5300 8150
 AR Path="/5EE184DC" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5EE184DC" Ref="D?"  Part="1" 
-F 0 "D?" V 5346 8082 50  0000 R CNN
+AR Path="/5E724F09/5EE184DC" Ref="D3"  Part="1" 
+F 0 "D3" V 5346 8082 50  0000 R CNN
 F 1 "R" V 5255 8082 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5300 8150 50  0001 C CNN
 F 3 "~" V 5300 8150 50  0001 C CNN
@@ -1091,8 +1091,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE184F1
 P 6250 7100
 AR Path="/5EE184F1" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE184F1" Ref="J?"  Part="1" 
-F 0 "J?" H 6071 7083 50  0000 R CNN
+AR Path="/5E724F09/5EE184F1" Ref="J12"  Part="1" 
+F 0 "J12" H 6071 7083 50  0000 R CNN
 F 1 "AudioJack2" H 6071 7174 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6250 7100 50  0001 C CNN
 F 3 "~" H 6250 7100 50  0001 C CNN
@@ -1123,8 +1123,8 @@ L Device:R_POT_US RV?
 U 1 1 5EE18500
 P 8350 7950
 AR Path="/5EE18500" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5EE18500" Ref="RV?"  Part="1" 
-F 0 "RV?" V 8237 7950 50  0000 C CNN
+AR Path="/5E724F09/5EE18500" Ref="RV4"  Part="1" 
+F 0 "RV4" V 8237 7950 50  0000 C CNN
 F 1 "B100K" V 8250 7700 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 8350 7950 50  0001 C CNN
 F 3 "~" H 8350 7950 50  0001 C CNN
@@ -1147,8 +1147,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE1850C
 P 9600 8650
 AR Path="/5EE1850C" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE1850C" Ref="J?"  Part="1" 
-F 0 "J?" H 9420 8633 50  0000 R CNN
+AR Path="/5E724F09/5EE1850C" Ref="J13"  Part="1" 
+F 0 "J13" H 9420 8633 50  0000 R CNN
 F 1 "AudioJack2" H 9420 8724 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9600 8650 50  0001 C CNN
 F 3 "~" H 9600 8650 50  0001 C CNN
@@ -1177,10 +1177,10 @@ L Transistor_BJT:2N3904 Q?
 U 1 1 5EE1851A
 P 10050 7950
 AR Path="/5EE1851A" Ref="Q?"  Part="1" 
-AR Path="/5E724F09/5EE1851A" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10240 7996 50  0000 L CNN
+AR Path="/5E724F09/5EE1851A" Ref="Q4"  Part="1" 
+F 0 "Q4" H 10240 7996 50  0000 L CNN
 F 1 "2N3904" H 10240 7905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10250 7875 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 10250 7875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10050 7950 50  0001 L CNN
 	1    10050 7950
 	1    0    0    -1  
@@ -1190,10 +1190,10 @@ L Device:R_Small_US R?
 U 1 1 5EE18520
 P 10150 7500
 AR Path="/5EE18520" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE18520" Ref="R?"  Part="1" 
-F 0 "R?" H 10218 7546 50  0000 L CNN
+AR Path="/5E724F09/5EE18520" Ref="R10"  Part="1" 
+F 0 "R10" H 10218 7546 50  0000 L CNN
 F 1 "2K" H 10218 7455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10150 7500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 10150 7500 50  0001 C CNN
 F 3 "~" H 10150 7500 50  0001 C CNN
 	1    10150 7500
 	1    0    0    -1  
@@ -1203,10 +1203,10 @@ L Device:R_Small_US R?
 U 1 1 5EE18526
 P 9650 7950
 AR Path="/5EE18526" Ref="R?"  Part="1" 
-AR Path="/5E724F09/5EE18526" Ref="R?"  Part="1" 
-F 0 "R?" V 9445 7950 50  0000 C CNN
+AR Path="/5E724F09/5EE18526" Ref="R7"  Part="1" 
+F 0 "R7" V 9445 7950 50  0000 C CNN
 F 1 "47K" V 9536 7950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9650 7950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9650 7950 50  0001 C CNN
 F 3 "~" H 9650 7950 50  0001 C CNN
 	1    9650 7950
 	0    1    1    0   
@@ -1216,8 +1216,8 @@ L Device:LED_Small_ALT D?
 U 1 1 5EE1852C
 P 10150 8350
 AR Path="/5EE1852C" Ref="D?"  Part="1" 
-AR Path="/5E724F09/5EE1852C" Ref="D?"  Part="1" 
-F 0 "D?" V 10196 8282 50  0000 R CNN
+AR Path="/5E724F09/5EE1852C" Ref="D4"  Part="1" 
+F 0 "D4" V 10196 8282 50  0000 R CNN
 F 1 "R" V 10105 8282 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 10150 8350 50  0001 C CNN
 F 3 "~" V 10150 8350 50  0001 C CNN
@@ -1274,8 +1274,8 @@ L Device:R_POT_US RV?
 U 1 1 5EE18549
 P 3500 7750
 AR Path="/5EE18549" Ref="RV?"  Part="1" 
-AR Path="/5E724F09/5EE18549" Ref="RV?"  Part="1" 
-F 0 "RV?" V 3387 7750 50  0000 C CNN
+AR Path="/5E724F09/5EE18549" Ref="RV3"  Part="1" 
+F 0 "RV3" V 3387 7750 50  0000 C CNN
 F 1 "B100K" V 3400 7500 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 3500 7750 50  0001 C CNN
 F 3 "~" H 3500 7750 50  0001 C CNN
@@ -1553,45 +1553,45 @@ vco_e_sync
 Text Label 13650 3350 2    50   ~ 0
 vco_f_sync
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x05_Male J22
 U 1 1 5EE56863
 P 15250 7850
-F 0 "J?" H 15222 7782 50  0000 R CNN
+F 0 "J22" H 15222 7782 50  0000 R CNN
 F 1 "Conn_01x05_Male" H 15222 7873 50  0000 R CNN
-F 2 "" H 15250 7850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 15250 7850 50  0001 C CNN
 F 3 "~" H 15250 7850 50  0001 C CNN
 	1    15250 7850
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x09_Male J?
+L Connector:Conn_01x09_Male J19
 U 1 1 5EE69495
 P 15250 2750
-F 0 "J?" H 15222 2682 50  0000 R CNN
+F 0 "J19" H 15222 2682 50  0000 R CNN
 F 1 "Conn_01x09_Male" H 15222 2773 50  0000 R CNN
-F 2 "" H 15250 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 15250 2750 50  0001 C CNN
 F 3 "~" H 15250 2750 50  0001 C CNN
 	1    15250 2750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x12_Male J?
+L Connector:Conn_01x12_Male J20
 U 1 1 5EE6C3C3
 P 15250 4700
-F 0 "J?" H 15222 4582 50  0000 R CNN
+F 0 "J20" H 15222 4582 50  0000 R CNN
 F 1 "Conn_01x12_Male" H 15222 4673 50  0000 R CNN
-F 2 "" H 15250 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 15250 4700 50  0001 C CNN
 F 3 "~" H 15250 4700 50  0001 C CNN
 	1    15250 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J21
 U 1 1 5EE6F7A4
 P 15250 6400
-F 0 "J?" H 15222 6282 50  0000 R CNN
+F 0 "J21" H 15222 6282 50  0000 R CNN
 F 1 "Conn_01x06_Male" H 15222 6373 50  0000 R CNN
-F 2 "" H 15250 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 15250 6400 50  0001 C CNN
 F 3 "~" H 15250 6400 50  0001 C CNN
 	1    15250 6400
 	-1   0    0    1   
@@ -1601,8 +1601,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE9AE83
 P 6150 2200
 AR Path="/5EE9AE83" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE9AE83" Ref="J?"  Part="1" 
-F 0 "J?" H 5971 2183 50  0000 R CNN
+AR Path="/5E724F09/5EE9AE83" Ref="J8"  Part="1" 
+F 0 "J8" H 5971 2183 50  0000 R CNN
 F 1 "AudioJack2" H 5971 2274 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6150 2200 50  0001 C CNN
 F 3 "~" H 6150 2200 50  0001 C CNN
@@ -1635,8 +1635,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE9AE93
 P 6200 5150
 AR Path="/5EE9AE93" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE9AE93" Ref="J?"  Part="1" 
-F 0 "J?" H 6021 5133 50  0000 R CNN
+AR Path="/5E724F09/5EE9AE93" Ref="J10"  Part="1" 
+F 0 "J10" H 6021 5133 50  0000 R CNN
 F 1 "AudioJack2" H 6021 5224 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6200 5150 50  0001 C CNN
 F 3 "~" H 6200 5150 50  0001 C CNN
@@ -1669,8 +1669,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EE9AEA3
 P 6200 8350
 AR Path="/5EE9AEA3" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EE9AEA3" Ref="J?"  Part="1" 
-F 0 "J?" H 6021 8333 50  0000 R CNN
+AR Path="/5E724F09/5EE9AEA3" Ref="J11"  Part="1" 
+F 0 "J11" H 6021 8333 50  0000 R CNN
 F 1 "AudioJack2" H 6021 8424 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6200 8350 50  0001 C CNN
 F 3 "~" H 6200 8350 50  0001 C CNN
@@ -1703,8 +1703,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EF95B3C
 P 1200 1400
 AR Path="/5EF95B3C" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EF95B3C" Ref="J?"  Part="1" 
-F 0 "J?" H 1021 1383 50  0000 R CNN
+AR Path="/5E724F09/5EF95B3C" Ref="J1"  Part="1" 
+F 0 "J1" H 1021 1383 50  0000 R CNN
 F 1 "AudioJack2" H 1021 1474 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1200 1400 50  0001 C CNN
 F 3 "~" H 1200 1400 50  0001 C CNN
@@ -1737,8 +1737,8 @@ L Connector:AudioJack2 J?
 U 1 1 5EFF0EC0
 P 1400 4350
 AR Path="/5EFF0EC0" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5EFF0EC0" Ref="J?"  Part="1" 
-F 0 "J?" H 1221 4333 50  0000 R CNN
+AR Path="/5E724F09/5EFF0EC0" Ref="J2"  Part="1" 
+F 0 "J2" H 1221 4333 50  0000 R CNN
 F 1 "AudioJack2" H 1221 4424 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1400 4350 50  0001 C CNN
 F 3 "~" H 1400 4350 50  0001 C CNN
@@ -1771,8 +1771,8 @@ L Connector:AudioJack2 J?
 U 1 1 5F001EFF
 P 1500 7750
 AR Path="/5F001EFF" Ref="J?"  Part="1" 
-AR Path="/5E724F09/5F001EFF" Ref="J?"  Part="1" 
-F 0 "J?" H 1321 7733 50  0000 R CNN
+AR Path="/5E724F09/5F001EFF" Ref="J3"  Part="1" 
+F 0 "J3" H 1321 7733 50  0000 R CNN
 F 1 "AudioJack2" H 1321 7824 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1500 7750 50  0001 C CNN
 F 3 "~" H 1500 7750 50  0001 C CNN
