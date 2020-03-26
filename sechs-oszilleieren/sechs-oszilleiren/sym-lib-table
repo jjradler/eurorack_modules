@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sechs-oszilleiren-rescue)(type Legacy)(uri ${KIPRJMOD}/sechs-oszilleiren-rescue.lib)(options "")(descr ""))
+)

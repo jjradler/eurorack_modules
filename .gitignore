@@ -24,3 +24,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+# Export Files for BOM
+*.tsv
+*.csv
+*.xml
+# Backup Files from KiCAD
+*.bak
+*.DS_Store
