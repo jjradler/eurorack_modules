@@ -4,11 +4,11 @@ EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 3 12
+Title "Sechs-Oszilléierer"
+Date "2020-04-04"
+Rev "1.0.0"
+Comp "Rädler AnalogDynamik"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -4,10 +4,10 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
-Title "Sechs-Oszilléierer"
-Date "2020-04-04"
-Rev "1.0.0"
+Sheet 1 3
+Title "Sechs-Oszilléieren"
+Date "2020-02-03"
+Rev "rev0"
 Comp "Rädler AnalogDynamik"
 Comment1 "Modified from Elliot William's \"Logic Noise\" series on Hackaday"
 Comment2 "Lifted and modified from Kristian Blåsol's \"Modular In A Week\""
