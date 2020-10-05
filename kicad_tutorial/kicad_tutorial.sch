@@ -1,0 +1,400 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85 U1
+U 1 1 5DBC671D
+P 8050 2000
+F 0 "U1" H 8250 1400 50  0000 C CNN
+F 1 "ATtiny85" H 8075 2184 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-8" H 8150 1350 50  0001 C CNN
+F 3 "" H 8050 2000 50  0001 C CNN
+	1    8050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5DBC94B6
+P 2950 4550
+F 0 "J2" H 2950 4750 50  0000 C CNN
+F 1 "Conn_01x04" V 3100 4500 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical_SMD_Pin1Left" H 2950 4550 50  0001 C CNN
+F 3 "~" H 2950 4550 50  0001 C CNN
+	1    2950 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5DBCABD8
+P 5100 4500
+F 0 "J3" H 5100 4750 50  0000 C CNN
+F 1 "Conn_01x04" V 5250 4450 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical_SMD_Pin1Left" H 5100 4500 50  0001 C CNN
+F 3 "~" H 5100 4500 50  0001 C CNN
+	1    5100 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Zener_ALT D1
+U 1 1 5DBCBA10
+P 3750 2750
+F 0 "D1" H 3700 2600 50  0000 L CNN
+F 1 "3.6V" H 3550 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3750 2750 50  0001 C CNN
+F 3 "~" H 3750 2750 50  0001 C CNN
+	1    3750 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener_ALT D2
+U 1 1 5DBCCBEE
+P 4400 2450
+F 0 "D2" H 4350 2300 50  0000 L CNN
+F 1 "3.6V" H 4200 2550 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4400 2450 50  0001 C CNN
+F 3 "~" H 4400 2450 50  0001 C CNN
+	1    4400 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_OTG J1
+U 1 1 5DBCD5EF
+P 2950 1400
+F 0 "J1" H 3100 1000 50  0000 R CNN
+F 1 "USB_OTG" V 2700 1550 50  0000 R CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 3100 1350 50  0001 C CNN
+F 3 " ~" H 3100 1350 50  0001 C CNN
+	1    2950 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5DBCF607
+P 4950 750
+F 0 "#PWR04" H 4950 600 50  0001 C CNN
+F 1 "+5V" H 4965 923 50  0000 C CNN
+F 2 "" H 4950 750 50  0001 C CNN
+F 3 "" H 4950 750 50  0001 C CNN
+	1    4950 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5DBD01A5
+P 7400 1550
+F 0 "#PWR06" H 7400 1400 50  0001 C CNN
+F 1 "+5V" H 7415 1723 50  0000 C CNN
+F 2 "" H 7400 1550 50  0001 C CNN
+F 3 "" H 7400 1550 50  0001 C CNN
+	1    7400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5DBD0BD7
+P 7000 3750
+F 0 "#PWR05" H 7000 3600 50  0001 C CNN
+F 1 "+5V" H 7015 3923 50  0000 C CNN
+F 2 "" H 7000 3750 50  0001 C CNN
+F 3 "" H 7000 3750 50  0001 C CNN
+	1    7000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DBD1723
+P 3450 3300
+F 0 "#PWR01" H 3450 3050 50  0001 C CNN
+F 1 "GND" H 3455 3127 50  0000 C CNN
+F 2 "" H 3450 3300 50  0001 C CNN
+F 3 "" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DBD1D2F
+P 3750 3300
+F 0 "#PWR02" H 3750 3050 50  0001 C CNN
+F 1 "GND" H 3755 3127 50  0000 C CNN
+F 2 "" H 3750 3300 50  0001 C CNN
+F 3 "" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5DBD1FEE
+P 4400 3350
+F 0 "#PWR03" H 4400 3100 50  0001 C CNN
+F 1 "GND" H 4405 3177 50  0000 C CNN
+F 2 "" H 4400 3350 50  0001 C CNN
+F 3 "" H 4400 3350 50  0001 C CNN
+	1    4400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5DBD23AC
+P 7500 5250
+F 0 "#PWR08" H 7500 5000 50  0001 C CNN
+F 1 "GND" H 7505 5077 50  0000 C CNN
+F 2 "" H 7500 5250 50  0001 C CNN
+F 3 "" H 7500 5250 50  0001 C CNN
+	1    7500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5DBD2DCA
+P 7400 2800
+F 0 "#PWR07" H 7400 2550 50  0001 C CNN
+F 1 "GND" H 7405 2627 50  0000 C CNN
+F 2 "" H 7400 2800 50  0001 C CNN
+F 3 "" H 7400 2800 50  0001 C CNN
+	1    7400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DBD3C58
+P 7400 2150
+F 0 "C1" H 7515 2196 50  0000 L CNN
+F 1 "22nF" H 7515 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7438 2000 50  0001 C CNN
+F 3 "~" H 7400 2150 50  0001 C CNN
+	1    7400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DBD4692
+P 4950 1100
+F 0 "R1" V 5050 1050 50  0000 L CNN
+F 1 "1k5" V 4950 1050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4880 1100 50  0001 C CNN
+F 3 "~" H 4950 1100 50  0001 C CNN
+	1    4950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DBD51E1
+P 5650 1400
+F 0 "R2" V 5750 1400 50  0000 C CNN
+F 1 "68" V 5650 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 1400 50  0001 C CNN
+F 3 "~" H 5650 1400 50  0001 C CNN
+	1    5650 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DBD574B
+P 6150 1300
+F 0 "R3" V 6050 1300 50  0000 C CNN
+F 1 "68" V 6150 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6080 1300 50  0001 C CNN
+F 3 "~" H 6150 1300 50  0001 C CNN
+	1    6150 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DBD5AC3
+P 7000 4200
+F 0 "R4" V 6900 4250 50  0000 R CNN
+F 1 "270" V 7000 4300 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 4200 50  0001 C CNN
+F 3 "~" H 7000 4200 50  0001 C CNN
+	1    7000 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D3
+U 1 1 5DBD8187
+P 7000 4700
+F 0 "D3" H 7050 4850 50  0000 R CNN
+F 1 "G" H 7050 4600 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7000 4700 50  0001 C CNN
+F 3 "~" H 7000 4700 50  0001 C CNN
+	1    7000 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 4350 3700 4350
+Wire Wire Line
+	3150 4450 3700 4450
+Wire Wire Line
+	3150 4550 3700 4550
+Wire Wire Line
+	3150 4650 3700 4650
+Wire Wire Line
+	2950 1000 2950 750 
+Wire Wire Line
+	2950 750  3450 750 
+Wire Wire Line
+	3450 750  3450 3300
+Wire Wire Line
+	3250 1400 3750 1400
+Wire Wire Line
+	3250 1300 4400 1300
+Wire Wire Line
+	4400 2300 4400 1300
+Connection ~ 4400 1300
+Wire Wire Line
+	4400 1300 6000 1300
+Wire Wire Line
+	3750 2600 3750 1400
+Connection ~ 3750 1400
+Wire Wire Line
+	3750 1400 4950 1400
+Wire Wire Line
+	4950 1400 4950 1250
+Connection ~ 4950 1400
+Wire Wire Line
+	4950 1400 5500 1400
+Wire Wire Line
+	4950 950  4950 850 
+Wire Wire Line
+	4950 850  3350 850 
+Wire Wire Line
+	3350 850  3350 1600
+Wire Wire Line
+	3350 1600 3250 1600
+Connection ~ 4950 850 
+Wire Wire Line
+	4950 850  4950 750 
+NoConn ~ 3250 1200
+Wire Wire Line
+	4400 2600 4400 3350
+Wire Wire Line
+	3750 3300 3750 2900
+Wire Wire Line
+	5300 4300 5700 4300
+Wire Wire Line
+	5300 4400 5700 4400
+Wire Wire Line
+	5300 4500 5700 4500
+Wire Wire Line
+	5300 4600 5700 4600
+Wire Wire Line
+	7000 4850 7000 5050
+Wire Wire Line
+	7500 5050 7500 5250
+Wire Wire Line
+	7000 5050 6400 5050
+Connection ~ 7000 5050
+Wire Wire Line
+	7000 4550 7000 4350
+Wire Wire Line
+	7000 4050 7000 3750
+Wire Wire Line
+	8400 2450 8850 2450
+Wire Wire Line
+	8400 2350 8850 2350
+Wire Wire Line
+	8400 2250 8850 2250
+Wire Wire Line
+	8400 2150 8850 2150
+Wire Wire Line
+	8400 2050 8850 2050
+Wire Wire Line
+	8400 1950 8850 1950
+Wire Wire Line
+	7750 1950 7400 1950
+Wire Wire Line
+	7400 1950 7400 2000
+Wire Wire Line
+	7400 2300 7400 2450
+Wire Wire Line
+	7400 2450 7750 2450
+Wire Wire Line
+	7400 2450 7400 2800
+Connection ~ 7400 2450
+Wire Wire Line
+	7400 1950 7400 1550
+Connection ~ 7400 1950
+Wire Wire Line
+	6300 1300 6600 1300
+Wire Wire Line
+	5800 1400 6600 1400
+Wire Wire Line
+	7000 5050 7050 5050
+Wire Wire Line
+	7450 5050 7500 5050
+Text Label 6600 1400 0    50   ~ 0
+PB4
+Wire Wire Line
+	2850 1000 2850 750 
+Wire Wire Line
+	2850 750  2950 750 
+Connection ~ 2950 750 
+Text Label 8850 2450 0    50   ~ 0
+NRES
+Text Label 8850 2350 0    50   ~ 0
+PB4
+Text Label 8850 2250 0    50   ~ 0
+PB3
+Text Label 8850 2150 0    50   ~ 0
+PB2
+Text Label 8850 2050 0    50   ~ 0
+PB1
+Text Label 8850 1950 0    50   ~ 0
+PB0
+Text Label 6400 5050 0    50   ~ 0
+NRES
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DBE8E2A
+P 7250 5050
+F 0 "SW1" H 7350 5200 50  0000 C CNN
+F 1 "SW_Push" H 7250 5000 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 7250 5250 50  0001 C CNN
+F 3 "~" H 7250 5250 50  0001 C CNN
+	1    7250 5050
+	1    0    0    -1  
+$EndComp
+Text Label 3700 4350 0    50   ~ 0
+PB0
+Text Label 3700 4450 0    50   ~ 0
+PB1
+Text Label 3700 4550 0    50   ~ 0
+PB2
+Text Label 3700 4650 0    50   ~ 0
++5V
+Text Label 5700 4300 0    50   ~ 0
+NRES
+Text Label 5700 4400 0    50   ~ 0
+PB3
+Text Label 5700 4500 0    50   ~ 0
+PB4
+Text Label 5700 4600 0    50   ~ 0
+GND
+Text Notes 7050 6800 0    50   ~ 0
+Random Tutorial for kiCAD from Hackaday using a Mythical \nATTiny85 Integrated MCU
+Text Notes 7300 7200 0    50   ~ 0
+1
+Text Notes 7400 7200 0    50   ~ 0
+1
+Text Notes 7400 7500 0    50   ~ 0
+KiCAD Tutorial with ATTiny85\n
+Text Notes 8150 7650 0    50   ~ 0
+01.11.2019
+Text Notes 10600 7650 0    50   ~ 0
+1.0.0
+Text Label 6600 1300 0    50   ~ 0
+PB3
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name eurocad)(type Legacy)(uri /Users/josephj.radler/lib/KiCAD_personal_libraries/mod_synth/eurocad-master/eurocad.lib)(options "")(descr ""))
+)
