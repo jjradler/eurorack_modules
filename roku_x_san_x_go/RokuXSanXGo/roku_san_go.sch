@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:roku_san_go-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_IDC_Eurorack:Conn_IDC_Box_Header_02x05_Top_Bottom J4
+L roku_san_go-rescue:Conn_IDC_Box_Header_02x05_Top_Bottom-Conn_IDC_Eurorack J4
 U 1 1 5DEE2DD6
 P 14400 8150
 F 0 "J4" H 14450 8450 50  0000 C CNN

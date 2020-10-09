@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name roku_san_go-rescue)(type Legacy)(uri ${KIPRJMOD}/roku_san_go-rescue.lib)(options "")(descr ""))
+)
