@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 11
 Title "Sechs-Oszilléierer"
 Date "2020-04-04"
 Rev "1.0.0"

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 12
+Sheet 2 11
 Title "Sechs-Oszilléierer"
 Date "2020-04-04"
 Rev "1.0.0"
@@ -68,11 +68,5 @@ S 2200 5000 4200 3350
 U 5E8AD776
 F0 "output_control_cluster" 50
 F1 "output_control_clustersch.sch" 50
-$EndSheet
-$Sheet
-S 10400 4900 4350 3350
-U 5E8AD7DE
-F0 "output_jack_cluster" 50
-F1 "output_jack_cluster.sch" 50
 $EndSheet
 $EndSCHEMATC
